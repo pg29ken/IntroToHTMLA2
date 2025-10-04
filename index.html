@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Ken's Minesweeper</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1 id="title">MINESWEEPER</h1>
+        <nav id="nav-section">
+            <ul id="nav-list">
+                <li><a href="https://en.wikipedia.org/wiki/Minesweeper_(video_game)" id="how-to-link">ABOUT THE GAME</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main-section"> <!--Includes main game area and sidebar-->
+        <section id="game-area">
+            <h2>Play Minesweeper!</h2>
+            <div id="minesweeper">
+                <img src="minesweeper-sample.png"/>
+            </div>
+        </section>
+
+        <section id="sidebar">
+            <article id="how-to-play">
+                <h2>How To Play</h2>
+                <p>Objective: Reveal all the mines without triggering them</p>
+                <p>Left Click: Reveals a tile</p>
+                <p>Right Click: Flag a tile</p>
+                <p>Tile Types</p>
+                <p>Safe tiles: Have numbers indicating the number of mines adjacent to them</p>
+                <p>Mines: End the game once revealed</p>
+                <p>How to Win: Correctly flag all potential mines</p>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+            &copy; 2025 Ken Arigo - VFS 2025   
+    </footer>
+</body>
+</html>
