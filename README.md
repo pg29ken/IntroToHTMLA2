@@ -5,3 +5,6 @@ This repository includes the website which we will add our minesweeper game to d
 
 The website includes a header, a navigation bar, the main section to add the minesweeper game to, as well as a sidebar containing a "How-To-Play" section.
 At the bottom of the page is a footer containing a the copyright file.
+
+Link to Github Repo
+https://github.com/pg29ken/IntroToHTMLA2.git
