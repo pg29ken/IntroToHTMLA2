@@ -76,8 +76,7 @@ a{
     border-radius: 6px;
     position: sticky;
     top:20px;
-    height:380px;
-
+    height: fit-content;
 
 }
 
@@ -106,4 +105,9 @@ a{
 
 #how-to-play{
     margin-left: 10px;
+}
+
+#sidebar-title{
+    font-size: 2em;
+    font-weight: 900;
 }
